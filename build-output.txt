@@ -1,0 +1,91 @@
+﻿  Γû▓ Next.js 14.2.35
+  - Environments: .env.local
+
+   Creating an optimized production build ...
+ Γ£ô Compiled successfully
+   Linting and checking validity of types ...
+   Collecting page data ...
+   Generating static pages (0/40) ...
+node.exe : ReferenceError: location is not defined
+At line:1 char:1
++ & "C:\Program Files\nodejs/node.exe" "C:\Program Files\nodejs/node_mo ...
++ ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : NotSpecified: (ReferenceError: location is not defined:String) [], RemoteException
+    + FullyQualifiedErrorId : NativeCommandError
+ 
+    at C:\Users\Admin\Documents\7777777744444444\.next\server\chunks\2947.js:23:20741
+    at C:\Users\Admin\Documents\7777777744444444\.next\server\chunks\2947.js:23:21606
+    at t.startTransition (C:\Users\Admin\Documents\7777777744444444\node_modules\next\dist\compiled\next-server\app-pag
+e.runtime.prod.js:12:109047)
+    at Object.push (C:\Users\Admin\Documents\7777777744444444\.next\server\chunks\2947.js:23:21594)
+    at x (C:\Users\Admin\Documents\7777777744444444\.next\server\app\account\settings\page.js:1:3840)
+    at nj (C:\Users\Admin\Documents\7777777744444444\node_modules\next\dist\compiled\next-server\app-page.runtime.prod.
+js:12:46252)
+    at nM (C:\Users\Admin\Documents\7777777744444444\node_modules\next\dist\compiled\next-server\app-page.runtime.prod.
+js:12:47572)
+    at nL (C:\Users\Admin\Documents\7777777744444444\node_modules\next\dist\compiled\next-server\app-page.runtime.prod.
+js:12:64547)
+    at nI (C:\Users\Admin\Documents\7777777744444444\node_modules\next\dist\compiled\next-server\app-page.runtime.prod.
+js:12:47011)
+    at nM (C:\Users\Admin\Documents\7777777744444444\node_modules\next\dist\compiled\next-server\app-page.runtime.prod.
+js:12:47718)
+   Generating static pages (10/40) 
+   Generating static pages (20/40) 
+   Generating static pages (30/40) 
+ Γ£ô Generating static pages (40/40)
+   Finalizing page optimization ...
+   Collecting build traces ...
+
+Route (app)                              Size     First Load JS
+Γöî Γùï /                                    6.42 kB         159 kB
+Γö£ Γùï /_not-found                          147 B          87.5 kB
+Γö£ Γùï /about                               2.65 kB         150 kB
+Γö£ Γùï /account                             3.18 kB         150 kB
+Γö£ Γùï /account/orders                      2.17 kB         149 kB
+Γö£ ╞Æ /account/orders/[id]                 2.57 kB         150 kB
+Γö£ Γùï /account/settings                    1.69 kB         149 kB
+Γö£ Γùï /account/wishlist                    2.78 kB         155 kB
+Γö£ Γùï /admin                               2.97 kB         131 kB
+Γö£ Γùï /admin/activity                      1.44 kB         120 kB
+Γö£ Γùï /admin/admins                        6.31 kB         130 kB
+Γö£ Γùï /admin/banners                       2.59 kB         126 kB
+Γö£ Γùï /admin/categories                    2.54 kB         126 kB
+Γö£ Γùï /admin/content                       1.95 kB         125 kB
+Γö£ Γùï /admin/coupons                       2.61 kB         126 kB
+Γö£ Γùï /admin/customers                     3.39 kB         127 kB
+Γö£ Γùï /admin/languages                     2.28 kB         126 kB
+Γö£ Γùï /admin/notifications                 3.22 kB         127 kB
+Γö£ Γùï /admin/orders                        2.48 kB         135 kB
+Γö£ ╞Æ /admin/orders/[id]                   3.1 kB          126 kB
+Γö£ Γùï /admin/products                      6.08 kB         129 kB
+Γö£ Γùï /admin/reviews                       2.66 kB         126 kB
+Γö£ Γùï /admin/settings                      2.44 kB         126 kB
+Γö£ ╞Æ /api/admin/create-user               0 B                0 B
+Γö£ ╞Æ /api/admin/delete-user               0 B                0 B
+Γö£ Γùï /auth/login                          4.57 kB         143 kB
+Γö£ Γùï /auth/logout                         666 B           119 kB
+Γö£ Γùï /cart                                3.3 kB          156 kB
+Γö£ Γùï /categories                          1.18 kB         148 kB
+Γö£ Γùï /checkout                            4.31 kB         151 kB
+Γö£ Γùï /contact                             1.54 kB         149 kB
+Γö£ Γùï /help                                1.28 kB         148 kB
+Γö£ Γùï /privacy-policy                      835 B           148 kB
+Γö£ Γùï /products                            4.37 kB         157 kB
+Γö£ ╞Æ /products/[slug]                     5.08 kB         157 kB
+Γö£ Γùï /refund-policy                       771 B           148 kB
+Γö£ Γùï /return-policy                       792 B           148 kB
+Γö£ Γùï /robots.txt                          0 B                0 B
+Γö£ Γùï /shipping-policy                     829 B           148 kB
+Γö£ Γùï /sitemap.xml                         0 B                0 B
+Γöö Γùï /terms                               897 B           148 kB
++ First Load JS shared by all            87.4 kB
+  Γö£ chunks/2117-8c98caea3bcec874.js      31.7 kB
+  Γö£ chunks/fd9d1056-e35ed51ea929d37b.js  53.6 kB
+  Γöö other shared chunks (total)          1.99 kB
+
+
+╞Æ Middleware                             56.8 kB
+
+Γùï  (Static)   prerendered as static content
+╞Æ  (Dynamic)  server-rendered on demand
+
